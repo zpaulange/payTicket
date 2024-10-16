@@ -1,0 +1,45 @@
+*{
+  position: relative;
+  margin:0;
+  padding:0;
+  font-family: "system-ui";
+  box-sizing: border-box;
+  font-size: 14px ;
+  z-index: 5;
+}
+.page{
+  width: 793.7013px;
+  margin:0 auto;
+  padding:20px 10px;
+  border: 1px solid;
+}
+.page-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.page-box__item{
+  width: 360px;
+  height: 220px;
+  overflow: hidden;
+  border: 2px solid orange;
+}
+.page-box__img{
+  height: 100%;
+  z-index: -1;
+}
+.page-box__img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.page-box__item .ticket{
+  height:50px;
+  width: 50px;
+  background-color: #fff;
+  z-index: 10;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
