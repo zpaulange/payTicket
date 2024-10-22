@@ -10,36 +10,57 @@
 .page{
   width: 793.7013px;
   margin:0 auto;
-  padding:20px 10px;
-  border: 1px solid;
 }
 .page-box{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 5px;
 }
 .page-box__item{
-  width: 360px;
-  height: 220px;
   overflow: hidden;
-  border: 2px solid orange;
+  margin-bottom: 3px;
 }
 .page-box__img{
   height: 100%;
   z-index: -1;
 }
 .page-box__img img{
-  height: 100%;
+  height: auto;
   width: 100%;
-  object-fit: cover;
 }
-.page-box__item .ticket{
-  height:50px;
-  width: 50px;
+.page-box__item .ticket1{
+  height: 90px;
+  width: 90px;
   background-color: #fff;
   z-index: 10;
   position: absolute;
-  right: 5px;
-  bottom: 5px;
+  right: 26px;
+  bottom: 75px;
+}
+.page-box__item .num1{
+  position: absolute;
+  left: 284px;
+  bottom: 18px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  width: 54px;
+}
+.page-box__item .ticket2{
+  height: 45px;
+  width: 45px;
+  background-color: #fff;
+  z-index: 10;
+  position: absolute;
+  left: 19px;
+  bottom: 149px;
+}
+.page-box__item .num2{
+  position: absolute;
+  left: 23px;
+  bottom: 136px;
+  font-size: 9px;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  width: 35px;
 }
